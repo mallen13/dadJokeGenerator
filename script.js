@@ -1,19 +1,26 @@
 let jokeAnswer = '';
 
+
 //fetch jokes
 async function fetchJokes() {
     const setup = document.getElementById('setup');
+    const loadingText = document.getElementById('loading');
+    const jokeContainer = document.getElementById('jokeContainer');
     
     try {
         const response = await fetch('https://us-central1-dadsofunny.cloudfunctions.net/DadJokes/random/type/general');
         const joke = await response.json();
         setup.innerHTML = joke[0].setup;
         jokeAnswer = joke[0].punchline;
+
+        loadingText.style.display = 'none';
+        setup.style.display = 'block';
         
         setTimeout( () => showText(), 2000);
 
     } catch (error) {
-        setup.innerHTML = ('Error Retrieving Data')
+        setup.innerHTML = 'Error Fetching Joke';
+        jokeAnswer = 'Error Fetching Punchline';
     }
 }
 

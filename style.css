@@ -44,7 +44,9 @@ img{
     padding: 10px 5px 25px 5px;
     align-items: flex-start;
     border-radius: 10px;
+    text-align: center;
 }
+
 
 #setup{
     border: 1px solid gray;
@@ -52,6 +54,49 @@ img{
     background-color: rgb(187, 235, 187);
     max-width: 200px;
     border-radius: 20px;
+    display: none;
+}
+
+.animate {
+    animation-duration: 0.4s;
+    animation-name: scaleSize;
+}
+
+@keyframes scaleSize {
+    0%{
+        transform: scale(0.50, 0.0)
+    }
+    10%{
+        transform: scale(0.55, 0.55),
+    }
+    20%{
+        transform: scale(0.6, 0.6)
+    }
+    30%{
+        transform: scale(0.65, 0.65)
+    }
+    40%{
+        transform: scale(0.7. 0.7)
+    }
+    50%{
+        transform: scale(0.76, 0.75)
+    }
+    60%{
+        transform: scale(0.8, 0.8)
+
+    }
+    70%{
+        transform: scale(0.85, 0.85)
+    }
+    80%{
+        transform: scale(0.9, 0.9)
+    }
+    90%{
+        transform: scale(0.95, 0.95)
+    }
+    100%{
+        transform: scale(1.0. 1.0)
+    }
 }
 
 #revealText{
