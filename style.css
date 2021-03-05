@@ -1,4 +1,7 @@
-
+/*general styling*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
     font-size: 2.5em;
 }
@@ -11,12 +14,17 @@ p{
     font-size: 1.1em;
 }
 
+img{
+    width: 100px;
+}
+/*utility*/
 .flex{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+/*phone outline*/
 #outline{
     margin: 20px;
     border: 2px solid black;
@@ -24,13 +32,15 @@ p{
     border-radius: 10px;
     background-color: rgb(68, 68, 68);
 }
+
+/*screen*/
 #jokeContainer{
     background-color: #89CFF0;
     border: 1px solid gray;
     margin-bottom: 10px; 
     width: 320px;
     height: 300px;
-    padding: 5px;
+    padding: 10px 5px 25px 5px;
     align-items: flex-start;
     border-radius: 10px;
 }
@@ -48,9 +58,10 @@ p{
     border: 1px solid gray;
     padding: 10px;
     background-color: rgb(247, 188, 197);
-    width: 70px;
+    width: 130px;
     border-radius: 20px;
     align-self: flex-end;
+    text-align: center;
 }
 
 #punchline{
@@ -62,12 +73,13 @@ p{
     border-radius: 20px;
 }
 
+/*button*/
 button{
     font-size: 1em;
     margin: 20px;
     border: 2px solid gray;
     border-radius: 80px;
-    width: 175px;
+    width: 180px;
     height: 50px;
     background-color: white;
 }
@@ -81,6 +93,8 @@ button:focus, button:hover{
     display: none;
 }
 
+/*footer*/
 footer{
+    margin-top: 20px;
     text-align: center;
 }
