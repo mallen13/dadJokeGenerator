@@ -10,7 +10,7 @@ async function fetchJokes() {
         setup.innerHTML = joke[0].setup;
         jokeAnswer = joke[0].punchline;
         
-        setTimeout( () => showText(), 1000);
+        setTimeout( () => showText(), 2000);
 
     } catch (error) {
         setup.innerHTML = ('Error Retrieving Data')

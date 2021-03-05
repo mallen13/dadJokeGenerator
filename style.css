@@ -1,7 +1,6 @@
 /*general styling*/
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 h1{
     font-size: 2.5em;
@@ -41,7 +40,7 @@ img{
     border: 1px solid gray;
     margin-bottom: 10px; 
     width: 320px;
-    height: 300px;
+    height: 320px;
     padding: 10px 5px 25px 5px;
     align-items: flex-start;
     border-radius: 10px;
@@ -60,7 +59,7 @@ img{
     border: 1px solid gray;
     padding: 10px;
     background-color: rgb(247, 188, 197);
-    width: 130px;
+    width: 150px;
     border-radius: 20px;
     align-self: flex-end;
     text-align: center;
