@@ -1,9 +1,11 @@
 /*general styling*/
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 h1{
     font-size: 2.5em;
+    text-align: center;
 }
 
 h2{
@@ -79,7 +81,7 @@ button{
     margin: 20px;
     border: 2px solid gray;
     border-radius: 80px;
-    width: 180px;
+    width: 130px;
     height: 50px;
     background-color: white;
 }
@@ -97,4 +99,14 @@ button:focus, button:hover{
 footer{
     margin-top: 20px;
     text-align: center;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) {
+}
+  
+
+
+/*Computer*/
+@media only screen and (min-width: 992px) {
 }
