@@ -4,9 +4,9 @@ body{
 }
 h1{
     font-size: 2.5em;
-    font-family: cursive;
     text-align: center;
-    text-shadow: 0 0 10px #fff, 0 0 20px purple, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple;
+    text-shadow: 0 0 10px #fff, 0 0 20px purple, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px #ff4da6;
+    font-family: 'Akaya Kanadaka', cursive;
 }
 
 h2{
@@ -28,7 +28,8 @@ img{
 }
 
 .subTitle{
-    font-family: cursive;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 1.3em;
 }
 
 /*phone outline*/
