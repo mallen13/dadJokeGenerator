@@ -1,0 +1,86 @@
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#outline{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(68, 68, 68);
+}
+#jokeContainer{
+    background-color: #89CFF0;
+    border: 1px solid gray;
+    margin-bottom: 10px; 
+    width: 320px;
+    height: 300px;
+    padding: 5px;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+#setup{
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(187, 235, 187);
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+#revealText{
+    display: none;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(247, 188, 197);
+    width: 70px;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+
+#punchline{
+    display: none;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(187, 235, 187);
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+button{
+    font-size: 1em;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 80px;
+    width: 175px;
+    height: 50px;
+    background-color: white;
+}
+
+button:focus, button:hover{
+    background-color: lightgray;     
+    outline: none;      
+}
+
+#restart{
+    display: none;
+}
+
+footer{
+    text-align: center;
+}
