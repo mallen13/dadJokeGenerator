@@ -15,7 +15,8 @@ async function fetchJokes() {
 
         loadingText.style.display = 'none';
         setup.style.display = 'block';
-        
+        jokeContainer.className = 'flex';
+
         setTimeout( () => showText(), 2000);
 
     } catch (error) {
