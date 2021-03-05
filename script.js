@@ -8,7 +8,7 @@ async function fetchJokes() {
     const jokeContainer = document.getElementById('jokeContainer');
     
     try {
-        const response = await fetch('https://us-central1-dadsofunny.cloudfunctions.net/DadJokes/random/type/generalasdf');
+        const response = await fetch('https://us-central1-dadsofunny.cloudfunctions.net/DadJokes/random/type/general');
         const joke = await response.json();
         setup.innerHTML = joke[0].setup;
         jokeAnswer = joke[0].punchline;
