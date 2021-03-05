@@ -3,16 +3,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
 h1{
     font-size: 3.5em;
     text-align: center;
     color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 17px purple, 0 0 27px purple, 0 0 37px purple, 0 0 47px purple, 0 0 57px purple, 0 0 67px #ff4da6;
+    
     font-family: 'Akaya Kanadaka', cursive;
     background-color: black;
     border-radius: 5px;
     padding: 15px 20px 15px 20px;
     margin-bottom: 15px;
+
+    animation: glow 1s infinite alternate;
 }
 
 h2{
@@ -34,9 +37,20 @@ img{
     flex-direction: column;
 }
 
+/*Header*/
 .subTitle{
     font-family: 'Akaya Kanadaka', cursive;
     font-size: 1.5em;
+}
+
+@keyframes glow{
+     from {
+        text-shadow: 0 0 0px #fff, 0 0 10px purple, 0 0 20px purple, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple;
+     }
+
+     to {
+        text-shadow: 0 0 7px #fff, 0 0 17px purple, 0 0 27px purple, 0 0 37px purple, 0 0 47px purple, 0 0 57px purple, 0 0 67px purple;
+     }
 }
 
 /*phone outline*/
