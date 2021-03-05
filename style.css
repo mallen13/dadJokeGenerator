@@ -1,12 +1,18 @@
 /*general styling*/
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 h1{
-    font-size: 2.5em;
+    font-size: 5.0em;
     text-align: center;
-    text-shadow: 0 0 10px #fff, 0 0 20px purple, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px #ff4da6;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 17px purple, 0 0 27px purple, 0 0 37px purple, 0 0 47px purple, 0 0 57px purple, 0 0 67px #ff4da6;
     font-family: 'Akaya Kanadaka', cursive;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 10px;
 }
 
 h2{
@@ -19,6 +25,7 @@ p{
 
 img{
     width: 100px;
+    padding: 15px;
 }
 /*utility*/
 .flex{
