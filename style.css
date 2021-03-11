@@ -47,9 +47,10 @@ img{
 .subTitle{
     /* font-family: 'Akaya Kanadaka', cursive; */
     font-size: 1.5em;
-    background-color: white;  
+    text-align: center;
     padding: 2px;
     margin: 0px;
+    max-width: 600px;
 }
 
 @keyframes glow{
@@ -184,7 +185,6 @@ footer{
 footer p {
     font-size: 1.2em;
     text-align: center;
-    background-color: white;
 }
 
 /*Tablet*/
