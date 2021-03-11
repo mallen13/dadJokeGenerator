@@ -44,8 +44,11 @@ img{
 
 /*Header*/
 .subTitle{
-    font-family: 'Akaya Kanadaka', cursive;
+    /* font-family: 'Akaya Kanadaka', cursive; */
     font-size: 1.5em;
+    background-color: white;  
+    margin: 10px;;
+    padding: 2px;;
 }
 
 @keyframes glow{
@@ -174,8 +177,13 @@ button:focus, button:hover{
 
 /*footer*/
 footer{
-    margin-top: 20px;
+    margin-top: 20px;   
+}
+
+footer p {
+    font-size: 1.2em;
     text-align: center;
+    background-color: white;
 }
 
 /*Tablet*/
